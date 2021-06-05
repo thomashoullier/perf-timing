@@ -6,6 +6,7 @@ time performance in Common Lisp.
 We can time either real time or runtime.
 
 **time-real** *fun* &key *mult* *ret-type* => *real-timing*
+
 **time-run** *fun* &key *mult* *ret-type* => *runtime*
 
 We measure the time elapsed when performing a call of *fun*. `time-real`
